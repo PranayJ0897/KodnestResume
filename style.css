@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
+.container
+{
+    margin: auto;
+    width: 80%;
+    border-left:  double 5px burlywood ;
+    border-top:  double 5px burlywood ;
+    padding: 10px 0px 0px 10px;
+    line-height: 2.0;
+}
+.header
+{
+    width: 100%;
+    display: flex;
+}
+.listing
+{
+    list-style: none;
+}
+.aboutself
+{
+    width: 70%;
+    padding: 40px;
+}
+.passport
+{
+    width: 30%;
+   
+}
+.img_adjust{
+    width: 40%;
+    /* height: 250px; */
+    min-width: 80px;
+    border: 5px burlywood double;
+    border-radius: 14px;
+}
+.separator
+{
+    padding: 5px;
+}
+.table-part{
+    
+    display: flex;/* auto adjustment to the centre  */
+    justify-content: center;/* It will put the content to the center*/
+}
+table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    text-align: center;
+    
+}
+tr,th{
+    padding: 0 12px 0 12px;
+}
+.skills
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lang
+{
+    display: flex;
+}
+.lang div:first-child{
+    width: 40%;
+    padding-left: 25px;
+}
+.lang div:last-child{
+    width: 60%;
+}
+.progressbar{
+    width: 80%;
+    height: 20px;
+    
+}
+.personal-details
+{
+    width: 70%;
+    margin: auto;
+}
+.details{
+    display: flex;
+}
+.details div:first-child{
+    width: 40%;
+}
+.details div:last-child{
+    width: 60%;
+}
+.heading{
+    background-color: burlywood;
+    margin-bottom: 5px;
+    
+}
+tr:hover,.heading:hover{
+    background-color: rgb(240, 225, 206);
+
+}
+.img_adjust:hover{
+    width:60% ;
+    
+}
